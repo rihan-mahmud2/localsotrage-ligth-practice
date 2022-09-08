@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>level3</title>
+    <style>
+      .container {
+        border-radius: 30px;
+        color: white;
+        margin: 0 auto;
+        padding: 2rem 3rem;
+        background-color: black;
+        max-width: 80%;
+      }
+
+      .heading {
+        text-align: center;
+      }
+
+      .first-div {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+      }
+
+      .first-div input {
+        width: 40%;
+        padding: 5px 20px;
+        height: 20px;
+      }
+
+      .first-div button {
+        border-radius: 1.5rem;
+        background-color: skyblue;
+        padding: 8px 20px;
+      }
+
+      .reset-btn {
+        border-radius: 1.5rem;
+        background-color: skyblue;
+        padding: 8px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="heading">
+        <h1>Pleas contact with me</h1>
+      </div>
+
+      <div class="first-div">
+        <input id="input-field-name" type="text" placeholder="Type Your Name" />
+        <button id="delete-name-btn" class="delete-name-btn">
+          Delete Name
+        </button>
+        <button id="send-name-btn" class="send-name-btn">Send Name</button>
+      </div>
+      <div class="first-div">
+        <input
+          id="input-field-email"
+          type="text"
+          placeholder="Type Your Email"
+        />
+        <button id="delete-email-btn" class="delete-name-btn">
+          Delete Email
+        </button>
+        <button id="send-email-btn" class="send-name-btn">Send email</button>
+      </div>
+      <div class="first-div">
+        <input
+          id="input-field-message"
+          type="text"
+          placeholder="Type Your Message"
+        />
+        <button id="delete-message-btn" class="delete-name-btn">
+          Delete Message
+        </button>
+        <button id="send-message-btn" class="send-name-btn">
+          Send Message
+        </button>
+      </div>
+
+      <button id="reset-btn" class="reset-btn">Reset</button>
+      <button id="send-btn" class="reset-btn">Send</button>
+    </main>
+
+    <script src="js/level3.js"></script>
+  </body>
+</html>
